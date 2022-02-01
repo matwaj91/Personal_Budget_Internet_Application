@@ -21,3 +21,80 @@ body{
     margin-right: 60px;
     font-style: italic;
 }
+
+#container{
+    background-color: white;
+    width: 300px;
+    padding: 5px 15px 5px 15px;
+    margin-left: auto;
+    margin-right: 225px;
+    margin-top: 40px;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 1);
+    box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 1);
+    border-radius: 7px;
+}
+
+#firstName, #email, #password{
+    width: 300px;
+    background-color: white;
+    color:#666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size:17px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+#firstName:focus,
+#email:focus,
+#password:focus{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    border: 2px solid #85bb65;
+}
+
+#signUpButton{
+    width: 300px;
+    background-color: #85bb65;
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+#signUpButton:hover{
+    background-color: #74aa54;
+}
+
+#splitLine{
+    border-bottom: 2px solid #f1f1f1;
+}
+
+#backButton{
+    width: 300px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+#backButton:hover{
+    background-color: #222;
+}
