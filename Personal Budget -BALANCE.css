@@ -147,3 +147,8 @@ table {
     box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 1);
     border-radius: 7px;
 }
+
+#footer{
+    text-align: center;
+    margin-top: 50px;
+}
