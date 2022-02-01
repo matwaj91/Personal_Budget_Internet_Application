@@ -85,3 +85,39 @@ ol > li > ul > li:hover{
 ol > li > ul > li:hover > a{
     color: #74aa54;
 }
+
+#appName{
+    font-size: 90px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(26, 24, 25);
+    text-align: right;
+    margin-right: 120px;
+    letter-spacing: 2px;
+}
+
+.aboutApp{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 100px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 200%;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(204, 204, 204, 1);
+}
+
+#lastSentence{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
