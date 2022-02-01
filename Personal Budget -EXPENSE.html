@@ -32,3 +32,69 @@
             </div>
         </nav>
     </header>
+    <main>
+        <header>
+            <div class="title">
+                <h1>Expense</h1>
+            </div>
+        </header>
+        <div class="container">
+            <form action="">
+                <div class="expenseArea">
+                    <span>Amount:</span>
+                    <label for="amount"></label>
+                    <input type="number" id="amount" min="0" name="amount" required>
+                </div>
+                <div class="expenseArea">
+                    <span>Date:</span>
+                    <label for="date"></label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="expenseArea">
+                    <span>Payment:</span>
+                    <input type="radio" id="cash" name="paymentMethod" value="cash" checked>
+                    <label for="cash">Cash</label>
+                    <input type="radio" id="debitCard" name="paymentMethod" value="debitCard">
+                    <label for="debitCard">Debit Card</label>
+                    <input type="radio" id="creditCard" name="paymentMethod" value="creditCard">
+                    <label for="creditCard">Credit Card</label>
+                </div>
+                <div class="expenseArea">
+                    <span>Category:</span>
+                    <label for="category"></label>
+                    <select name="category" id="category" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="food">Food</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="transport">Transport</option>
+                        <option value="telecommunication">Telecommunication</option>
+                        <option value="healthCare">Health Care</option>
+                        <option value="outfit">Outfit</option>
+                        <option value="hygiene">Hygiene</option>
+                        <option value="children">Children</option>
+                        <option value="entertainment">Entertainment</option>
+                        <option value="trip">Trip</option>
+                        <option value="training">Training</option>
+                        <option value="book">Books</option>
+                        <option value="savings">Savings</option>
+                        <option value="retirement">Retirement</option>
+                        <option value="debts">Debts</option>
+                        <option value="donation">Donation</option>
+                        <option value="otherExpenses">Other expenses</option>
+                    </select>
+                </div>
+                <div class="expenseArea">
+                    <span>Comment:</span>
+                    <label for="comment"></label>
+                    <textarea id="comment" name="comment" placeholder="Type something here. . ."></textarea>
+                </div>
+                <div class="expenseArea">
+                    <button id="addButton">Add</button>
+                </div>
+            </form>
+            <div id="splitLine"></div>
+            <div class="expenseArea">
+                <button id="cancelButton">Cancel</button>
+            </div>
+        </div>
+    </main>

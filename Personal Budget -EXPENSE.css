@@ -84,3 +84,135 @@ ol > li > ul > li:hover{
 ol > li > ul > li:hover > a{
     color: #74aa54;
 }
+
+.container{
+    background-color: white;
+    width: 425px;
+    padding: 15px 15px 15px 15px;
+    margin-left: auto;
+    margin-right: 180px;
+    margin-top: 20px;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 1);
+    box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 1);
+    border-radius: 7px;
+}
+
+.title{
+    width: 400px;
+    margin-left: auto;
+    margin-right: 180px;
+    margin-top: 20px;
+    padding: 0 25px 0 25px;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 50px;
+    font-weight: 300;
+    width: 100%;
+    text-shadow: 1px 1px 2px rgb(26, 24, 25);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span{
+    font-weight: 600;
+}
+
+#amount, #date, #category, #comment{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size:17px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#amount:focus,
+#date:focus,
+#category:focus,
+#comment:focus{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    border: 2px solid #85bb65;
+}
+
+#addButton{
+    width: 100%;
+    height: 40px;
+    background-color: #85bb65;
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    text-align: center;
+}
+
+#addButton:hover{
+    background-color: #74aa54;
+}
+
+#splitLine{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f1f1f1;
+}
+#cancelButton{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    text-align: center;
+}
+
+#cancelButton:hover{
+    background-color: #222;
+}
+
+input[type="radio"]{
+    accent-color: rgb(109, 160, 79);
+}
+
+input[type='radio']:hover {
+    box-shadow:0 0 5px 0px #74aa54;
+}
+
+.expenseArea{
+    width:100%;
+    margin-top: 10px;
+}
+
+.expenseArea:nth-of-type(3){
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.expenseArea #comment{
+    height: 60px;
+    text-align: Left;
+}
+
+.expenseArea textarea{
+    resize: none; 
+}
